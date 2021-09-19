@@ -1,0 +1,25 @@
+{
+  "name": "meetsol",
+  "version": "1.0.0",
+  "description": "a meet new people website",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonniek01/meetsol.git"
+  },
+  "author": "Ndigirigi John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonniek01/meetsol/issues"
+  },
+  "homepage": "https://github.com/Jonniek01/meetsol#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "node-modules": "^1.0.1",
+    "popper.js": "^1.12.9"
+  }
+}
