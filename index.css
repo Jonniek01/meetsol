@@ -8,29 +8,55 @@ body,html{
 
 
 }
+
 h1{
     text-align: center;
     color:white;
     font-family: 'Rubik Beastly', cursive;
     font-weight: 300;
     letter-spacing: .3rem;
+    transition: all .2s ease-in-out;
+               
+transform-origin: center;
+
+
+}
+h1:hover{
+    transform: scale(1.2);
+
+}
+.nav-item{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+color: red;
+transition: all .2s ease-in-out;
+               
+transform-origin: center;
+
+
+
 
 }
 
 .nav-item:hover {
+    transform: scale(1.2);
+    color: red;
+    transition: all .4s ease-in-out;
+
+    
     -webkit-animation:spin 3s cubic-bezier(0.075, 0.82, 0.165, 1) ;
     -moz-animation:spin 3s cubic-bezier(0.075, 0.82, 0.165, 1)  ;
     animation:spin 3s cubic-bezier(0.075, 0.82, 0.165, 1)  ;
 }
 @-moz-keyframes spin { 
-    100% { -moz-transform: rotate(180deg); } 
+    100% { -moz-transform: rotate(90deg); } 
 }
 @-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(180deg); } 
+    100% { -webkit-transform: rotate(90deg); } 
 }
 @keyframes spin { 
     100% { 
-        -webkit-transform: rotate(180deg); 
-        transform:rotate(180deg); 
+        -webkit-transform: rotate(90deg); 
+        transform:rotate(90deg); 
     } 
 }
